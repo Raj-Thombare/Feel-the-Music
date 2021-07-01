@@ -4,14 +4,24 @@ import "./styles.css";
 const musicDB = {
   Chill: [
     { name: "Enemies", Artist: "Lauv" },
+    { name: "Pakeezah", Artist: "Gulraj Singh" },
+    { name: "Humraah", Artist: "Sachet Tandon" },
+    { name: "I Like Me Better", Artist: "Lauv" },
     { name: "Aaftaab", Artist: "The Local Train" }
   ],
   Romantic: [
     { name: "The Night We Met", Artist: "Lord Huron" },
-    { name: "Darasal", Artist: "Atif Aslam" }
+    { name: "Only You", Artist: "Selena Gomez" },
+    { name: "Tum Mile", Artist: "Neeraj Shridhar" },
+    { name: "Teri Zhuki Nazar", Artist: "Shafqat Amanat Ali" },
+    { name: "Without You", Artist: "The Kid LAROI" }
   ],
+
   Relaxing: [
     { name: "Kun Faya Kun", Artist: "Javed Ali" },
+    { name: "Bewajah", Artist: "Nabeel Shaukat Ali" },
+    { name: "Ek Din Ek Jaan", Artist: "Shivam Pathak" },
+    { name: "Namo Namo", Artist: "Amit Trivedi" },
     { name: "Tajdar-E-Haram", Artist: "Atif Aslam" }
   ]
 };
