@@ -6,12 +6,8 @@
   padding: 2rem;
 }
 
-h1 {
-  color: red;
-}
-
 button {
-  margin: 1rem 0.5rem;
+  margin: 1rem 0.3rem;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   border: 1px solid red;

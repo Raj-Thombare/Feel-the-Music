@@ -25,7 +25,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1> Feel the Music 🎵 </h1>
+      <h1 style={{ color: "red" }}> Feel the Music 🎵 </h1>
       <p style={{ fontSize: "smaller" }}>
         Checkout my favorite songs. select genre to get started
       </p>
