@@ -11,7 +11,7 @@ const musicDB = {
     { name: "Darasal", Artist: "Atif Aslam" }
   ],
   Relaxing: [
-    { name: "Kun Faya Kun", Artist: "Javed Ali, Mohit Chauhan" },
+    { name: "Kun Faya Kun", Artist: "Javed Ali" },
     { name: "Tajdar-E-Haram", Artist: "Atif Aslam" }
   ]
 };
@@ -36,7 +36,8 @@ export default function App() {
           );
         })}
       </div>
-      <hr />
+      <div className="linebreak"></div>
+      <h3 style={{ color: "blueviolet" }}>{selectedGenre} </h3>
       <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
           {musicDB[selectedGenre].map((song) => (
