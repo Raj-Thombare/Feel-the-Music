@@ -9,17 +9,34 @@ const musicDB = {
     { name: "I Like Me Better", Artist: "Lauv" },
     { name: "Aaftaab", Artist: "The Local Train" }
   ],
+
   Romantic: [
     { name: "The Night We Met", Artist: "Lord Huron" },
     { name: "Only You", Artist: "Selena Gomez" },
     { name: "Tum Mile", Artist: "Neeraj Shridhar" },
     { name: "Teri Zhuki Nazar", Artist: "Shafqat Amanat Ali" },
-    { name: "Without You", Artist: "The Kid LAROI" }
+    { name: "Tere Naina", Artist: "Shankar Mahadevan, Shreya Ghoshal" }
+  ],
+
+  Rap: [
+    { name: "3:59 AM", Artist: "DIVINE" },
+    { name: "Angaar", Artist: "IKKA" },
+    { name: "Cypher", Artist: "Gully Gang" },
+    { name: "Ek Din Pyar", Artist: "MC STAN" },
+    { name: "Vibe hai", Artist: "DIVINE" }
+  ],
+
+  Dance: [
+    { name: "Uff Teri Ada", Artist: "Shanker Mahadevan, Alyssa Mendonsa" },
+    { name: "Sunflower", Artist: "Post Malon, Swae Lee" },
+    { name: "Bom Diggy Diggy", Artist: "Zack Knight, Jasmin Walia" },
+    { name: "Dil Chori", Artist: "Yo Yo Honey Singh" },
+    { name: "Build A Bitch", Artist: "Bella Poarch" }
   ],
 
   Relaxing: [
     { name: "Kun Faya Kun", Artist: "Javed Ali" },
-    { name: "Bewajah", Artist: "Nabeel Shaukat Ali" },
+    { name: "Paris in the Rain", Artist: "Lauv" },
     { name: "Ek Din Ek Jaan", Artist: "Shivam Pathak" },
     { name: "Namo Namo", Artist: "Amit Trivedi" },
     { name: "Tajdar-E-Haram", Artist: "Atif Aslam" }
@@ -27,7 +44,7 @@ const musicDB = {
 };
 
 export default function App() {
-  const [selectedGenre, setGenre] = useState("Romantic");
+  const [selectedGenre, setGenre] = useState("Chill");
 
   function genreClickHandler(genre) {
     setGenre(genre);
@@ -35,8 +52,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1 style={{ color: "red" }}> Feel the Music 🎵 </h1>
-      <p style={{ fontSize: "smaller" }}>
+      <h1> Feel the Music ♫ </h1>
+      <p style={{ fontSize: "medium" }}>
         Checkout my favorite songs. select genre to get started
       </p>
       <div>
@@ -47,14 +64,13 @@ export default function App() {
         })}
       </div>
       <div className="linebreak"></div>
-      <h3 style={{ color: "blueviolet" }}>{selectedGenre} </h3>
       <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
           {musicDB[selectedGenre].map((song) => (
             <li key={song.name}>
               {" "}
               <div style={{ fontSize: "larger" }}> {song.name} </div>
-              <div style={{ fontSize: "smaller" }}> by {song.Artist} </div>
+              <div style={{ fontSize: "11px" }}> by {song.Artist} </div>
             </li>
           ))}
         </ul>

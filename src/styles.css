@@ -1,33 +1,45 @@
 .App {
-  font-family: sans-serif;
-  text-align: left;
+  font-family: Rubik, sans-serif;
+  text-align: center;
   max-width: 600px;
   margin: auto;
   padding: 2rem;
+}
+
+html {
+  background-color: lightblue;
 }
 
 button {
   margin: 1rem 0.3rem;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-  border: 1px solid red;
+  border: 1px solid black;
   cursor: pointer;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
 }
 
 ul li {
   list-style: none;
-  border-radius: 0.5rem;
   padding: 1rem;
-  border: 1px solid red;
-  background-color: #efefef;
-  margin: 1rem 0rem;
+  background-color: paleturquoise;
+  margin: 1rem auto;
   width: 70%;
 }
 
 .linebreak {
   display: block;
   width: 100%;
-  height: 1px;
-  background-color: red;
+  height: 2px;
+  background-color: black;
   border-radius: 1rem;
 }
