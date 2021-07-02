@@ -64,6 +64,7 @@ export default function App() {
         })}
       </div>
       <div className="linebreak"></div>
+      <div className="showGenre">{selectedGenre}</div>
       <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
           {musicDB[selectedGenre].map((song) => (
