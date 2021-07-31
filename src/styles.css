@@ -6,8 +6,8 @@
   padding: 2rem;
 }
 
-html {
-  background-color: lightblue;
+body {
+  background: linear-gradient(90deg, #acb6e5, #86fde8);
 }
 
 button {
