@@ -3,41 +3,41 @@ import "./styles.css";
 
 const musicDB = {
   Chill: [
-    { name: "Enemies", Artist: "Lauv" },
-    { name: "Pakeezah", Artist: "Gulraj Singh" },
-    { name: "Humraah", Artist: "Sachet Tandon" },
-    { name: "I Like Me Better", Artist: "Lauv" },
-    { name: "Aaftaab", Artist: "The Local Train" }
+    { name: "Circles", Artist: "Post Malone" },
+    { name: "OK", Artist: "Wallows" },
+    { name: "Beautiful Mistakes", Artist: "Maroon 5" },
+    { name: "Love Me Like A Friend", Artist: "Fly By Midnight" },
+    { name: "Are You Bored Yet?", Artist: "Wallows" }
   ],
 
   Romantic: [
-    { name: "The Night We Met", Artist: "Lord Huron" },
-    { name: "Only You", Artist: "Selena Gomez" },
-    { name: "Tum Mile", Artist: "Neeraj Shridhar" },
-    { name: "Teri Zhuki Nazar", Artist: "Shafqat Amanat Ali" },
-    { name: "Tere Naina", Artist: "Shankar Mahadevan, Shreya Ghoshal" }
+    { name: "Adore You", Artist: "Harry Styles" },
+    { name: "Tum Se Hi", Artist: "Mohit Chauhan" },
+    { name: "Bheegi Si Bhaagi Si", Artist: "Neeraj Shridhar" },
+    { name: "Is This Love", Artist: "Mohit Chauhan" },
+    { name: "Dildara", Artist: "Shafqat Amanat Ali" }
   ],
 
   Rap: [
-    { name: "3:59 AM", Artist: "DIVINE" },
-    { name: "Angaar", Artist: "IKKA" },
-    { name: "Cypher", Artist: "Gully Gang" },
-    { name: "Ek Din Pyar", Artist: "MC STAN" },
+    { name: "No Cap", Artist: "KR$NA" },
+    { name: "Without Me", Artist: "Eminem" },
+    { name: "Cypher Vol.2", Artist: "Gully Gang" },
+    { name: "The Real Slim Shady", Artist: "Eminem" },
     { name: "Vibe hai", Artist: "DIVINE" }
   ],
 
   Dance: [
-    { name: "Uff Teri Ada", Artist: "Shanker Mahadevan, Alyssa Mendonsa" },
-    { name: "Sunflower", Artist: "Post Malon, Swae Lee" },
-    { name: "Bom Diggy Diggy", Artist: "Zack Knight, Jasmin Walia" },
-    { name: "Dil Chori", Artist: "Yo Yo Honey Singh" },
-    { name: "Build A Bitch", Artist: "Bella Poarch" }
+    { name: "Tu Mere Agal Bagal Hai", Artist: "Mika Singh, Pritam" },
+    { name: "As It Was", Artist: "Harry Styles" },
+    { name: "Prem Ki Naiya", Artist: "Neeraj Shridhar" },
+    { name: "Selfie Le Le Re", Artist: "Vishal Dadlani" },
+    { name: "Tainu Leke", Artist: "Sonu Nigam" }
   ],
 
   Relaxing: [
     { name: "Kun Faya Kun", Artist: "Javed Ali" },
-    { name: "Paris in the Rain", Artist: "Lauv" },
-    { name: "Ek Din Ek Jaan", Artist: "Shivam Pathak" },
+    { name: "Rait Zara Si", Artist: "Arijit Singh" },
+    { name: "Arziyan", Artist: "Javed Ali" },
     { name: "Namo Namo", Artist: "Amit Trivedi" },
     { name: "Tajdar-E-Haram", Artist: "Atif Aslam" }
   ]
